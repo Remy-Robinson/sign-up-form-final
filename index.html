@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="banner">
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1>Welcome to Our Website!</h1>
+                <p>we're so glad you could make it! While this is not a real online service, we hope you could still attempt our signup feature!<br><br>
+                <strong><em>What Are ya Waiting for?</em></strong></p>
+            </div>
+            <div class="signup">
+                <form>
+                    <div class="formcontainer">
+                        <div class="formgroup">
+                            <label for="first_name">*First Name:</label><br>
+                            <input 
+                            type="text" 
+                            id="first_name" 
+                            name="first_name"
+                            minlength = "2"
+                            maxlength = "16"
+                            required>
+                        </div>
+
+                        <div class="formgroup">
+                            <label for="last_name">*Last Name:</label><br>
+                            <input 
+                            type="text" 
+                            id="last_name" 
+                            name="last_name"
+                            minlength = "2"
+                            required>
+                        </div>
+
+                        <div class="formgroup">
+                            <label for="email">*Email:</label><br>
+                            <input 
+                            type="email" 
+                            id="email" 
+                            name="email"
+                            minlength = "2" 
+                            required>
+                        </div>
+
+                        <div class="formgroup">
+                            <label for="password">*Password:</label><br>
+                            <input type="password" 
+                            id="password" 
+                            name="password" 
+                            minlength="8"
+                            required>
+                        </div>
+                    </div>
+                    <div class="formgroup">
+                        <br><br><button type="submit">Submit!</button>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
